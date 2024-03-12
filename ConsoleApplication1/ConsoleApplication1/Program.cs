@@ -7,6 +7,7 @@ namespace ConsoleApplication1
         public static void Main(string[] args)
         {
             Console.WriteLine("fff");
+            Console.WriteLine("fff2");
         }
     }
 }
