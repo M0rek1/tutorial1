@@ -7,7 +7,7 @@ namespace ConsoleApplication1
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("fff");
+            Console.WriteLine("f");
             Console.WriteLine("fff2");
             Console.WriteLine("fff3");
             int[] numbers = { 1, 2, 3, 4, 5 };
