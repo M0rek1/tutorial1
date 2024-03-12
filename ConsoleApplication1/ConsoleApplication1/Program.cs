@@ -21,9 +21,9 @@ namespace ConsoleApplication1
         public static double CalculateAverage(int[] array)
         {
             int sum = 0;
-            foreach (int num in array)
+            foreach (int numbers in array)
             {
-                sum += num;
+                sum += numbers;
             }
 
             return (double)sum / array.Length;
