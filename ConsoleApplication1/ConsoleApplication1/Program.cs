@@ -8,6 +8,7 @@ namespace ConsoleApplication1
         {
             Console.WriteLine("fff");
             Console.WriteLine("fff2");
+            Console.WriteLine("fff3");
         }
     }
 }
