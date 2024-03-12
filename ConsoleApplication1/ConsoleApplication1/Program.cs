@@ -28,6 +28,24 @@ namespace ConsoleApplication1
 
             return (double)sum / array.Length;
         }
+        public static int FindMaxValue(int[] values)
+        {
+            if (values == null || values.Length == 0)
+            {
+                throw new ArgumentException("Array is null or empty.", nameof(values));
+            }
+
+            int maxValue = values[0];
+            for (int i = 1; i < values.Length; i++)
+            {
+                if (values[i] > maxValue)
+                {
+                    maxValue = values[i];
+                }
+            }
+            return maxValue;
+        }
+        
     }
 }
 
